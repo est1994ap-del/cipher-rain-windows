@@ -14,6 +14,8 @@ Native digital rain for the Windows desktop, with a live settings preview, notif
 
 ## Downloads
 
-**Cipher Rain Setup.exe** installs the app. **Cipher Rain Portable.zip** runs after extracting the whole archive. Both target Windows 11 x64 and use the same local settings folder.
+**Cipher.Rain.Setup.exe** installs the app. **Cipher.Rain.Portable.zip** runs after extracting the whole archive. Both target Windows 11 x64 and use the same local settings folder. GitHub replaces spaces in uploaded filenames with dots; local builds use spaced filenames.
+
+The public source independently built on a GitHub-hosted Windows runner on October 7, 2026, including all 39 core checks. See [the successful build](https://github.com/est1994ap-del/cipher-rain-windows/actions/runs/37668793076). These automated checks do not replace clean-PC installation or real hardware testing.
 
 This is an unsigned build. The live animation runs on the desktop and as a screen saver; Windows' secure sign-in background uses a static image. See [QA Report](docs/QA%20Report.md) for observed checks and remaining hardware verification.

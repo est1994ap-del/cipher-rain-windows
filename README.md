@@ -21,8 +21,8 @@ Get the files from [GitHub Releases](https://github.com/est1994ap-del/cipher-rai
 
 | Download | Best for | What to do |
 | --- | --- | --- |
-| **Cipher Rain Setup.exe** | Most people | Open it and choose **Install & open**. Includes the custom desktop icon and an uninstaller. |
-| **Cipher Rain Portable.zip** | Running from an extracted folder | Extract **all** files, then open `CipherRain.exe`. Keep the folder together. |
+| **Cipher.Rain.Setup.exe** | Most people | Open it and choose **Install & open**. Includes the custom desktop icon and an uninstaller. |
+| **Cipher.Rain.Portable.zip** | Running from an extracted folder | Extract **all** files, then open `CipherRain.exe`. Keep the folder together. |
 | **SHA256SUMS.txt** | Checking a download's integrity | Compare the file's SHA-256 checksum with the published value. |
 
 Both app downloads include the .NET runtime. Neither requires Visual Studio or the .NET SDK. This release targets Intel/AMD x64 PCs, not native Windows ARM, macOS, or Linux.
@@ -48,12 +48,12 @@ Effects have individual timing controls and manual previews. Seamless mode lets 
 
 **Requires Windows 11 x64 and graphics hardware that supports Direct3D 11.** Releases include the .NET runtime, so users do not need to install the SDK.
 
-1. Open [Releases](https://github.com/est1994ap-del/cipher-rain-windows/releases) and download **Cipher Rain Setup.exe**.
+1. Open [Releases](https://github.com/est1994ap-del/cipher-rain-windows/releases) and download **Cipher.Rain.Setup.exe**.
 2. Run it and choose **Install & open**.
 3. Open the **Cipher Rain** desktop shortcut to adjust the appearance. Changes save automatically; closing the settings window leaves the wallpaper running.
 4. In **Windows**, enable **Start Cipher Rain when I sign in** if you want it to begin automatically. It starts in the background with your saved settings. Changing an appearance preset keeps this preference.
 
-Prefer a portable copy? Download **Cipher Rain Portable.zip**, extract the entire archive, and open `CipherRain.exe`. Keep all extracted files together. Portable and installed editions share the same local settings.
+Prefer a portable copy? Download **Cipher.Rain.Portable.zip**, extract the entire archive, and open `CipherRain.exe`. Keep all extracted files together. Portable and installed editions share the same local settings.
 
 The current release is unsigned. See [INSTALL.md](INSTALL.md) for installation, screen-saver setup, and uninstall instructions.
 
@@ -110,6 +110,8 @@ C# and **.NET 8** power the app; **WPF** provides settings, while **Direct3D 11 
 | Installer and uninstaller | `src/Setup` |
 
 ## Verification
+
+The first [GitHub-hosted Windows build](https://github.com/est1994ap-del/cipher-rain-windows/actions/runs/37668793076) passed on October 7, 2026: it rebuilt the self-contained packages and passed all 39 core checks. This verifies the public source builds independently; it is not a clean-PC installation or graphics/hardware certification.
 
 The application was built and exercised on Windows 11 with four displays, using NVIDIA RTX 3090 and RTX 3050 adapters. The recorded checks include **39 core checks**, desktop start/stop and pause behavior, graphics captures for all nine effects, screen-saver transitions, installation/uninstall, and **12 startup and settings-persistence checks**.
 

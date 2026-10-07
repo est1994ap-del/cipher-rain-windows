@@ -1,6 +1,6 @@
 # Install and use
 
-1. Open **Cipher Rain Setup.exe** and choose **Install & open**.
+1. Open **Cipher.Rain.Setup.exe** and choose **Install & open**.
 2. The app installs under `%LOCALAPPDATA%\Programs\CipherRain`, creates a Start-menu entry, and offers the desktop shortcut **Cipher Rain**.
 3. Open the shortcut, adjust settings, and use **Start desktop**, **Pause**, **Resume**, and **Stop**. Changes appear immediately and save automatically.
 4. To start at sign-in, turn on **Windows → Start Cipher Rain when I sign in**.
@@ -21,7 +21,7 @@ This is an unsigned first release. Windows can report an unknown publisher, and 
 Download `SHA256SUMS.txt` from the same release. In PowerShell, run:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\Cipher Rain Setup.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\Cipher.Rain.Setup.exe'
 ```
 
 Compare the result with the installer entry in `SHA256SUMS.txt`. Use the portable ZIP's filename instead to verify that download. A matching checksum detects a changed file; it is not a publisher signature or a guarantee of security.
