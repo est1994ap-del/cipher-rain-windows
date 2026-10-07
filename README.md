@@ -5,15 +5,33 @@
 <h1 align="center">Cipher Rain for Windows</h1>
 <p align="center"><strong>Your desktop, written in light.</strong></p>
 <p align="center">A native Windows 11 live wallpaper and screen saver by Alexander Pierce.</p>
-<p align="center"><a href="https://github.com/est1994ap-del/cipher-rain-windows/releases">Download for Windows</a> · <a href="INSTALL.md">Install & use</a> · <a href="docs/QA%20Report.md">Test results & limits</a> · <a href="LICENSE.txt">MIT license</a></p>
+<p align="center"><a href="https://github.com/est1994ap-del/cipher-rain-windows/releases">Download for Windows</a> · <a href="INSTALL.md">Install & use</a> · <a href="docs/Settings%20Guide.md">Settings explained</a> · <a href="docs/QA%20Report.md">Test results & limits</a></p>
 
-![Cipher Rain: emerald digital-rain branding artwork](docs/media/Hero.svg)
+![Actual Cipher Rain Windows app running: live digital rain, Appearance settings, and desktop-playing status](docs/media/settings-appearance.jpg)
 
-*Banner artwork; the live application renders its own rain and effects.*
+*The real Windows app, with live rain in the preview and desktop playback active on four displays. [See all settings screenshots and explanations](docs/Settings%20Guide.md).*
 
 Cipher Rain brings flowing symbols, luminous trails, and timed visual effects to your Windows desktop. Shape the rain in a live settings preview, add a custom title and console boot sequence, and let it continue across your displays. Your changes save automatically. Optional startup brings back your last saved look when you sign in.
 
 **Windows 11 x64 · Free and open source · Works offline · No account required**
+
+## Inspired by The Matrix. Made for your desktop.
+
+Cipher Rain takes its inspiration from the falling green code of **The Matrix movies**: glowing symbols, trailing light, and the feeling of a world written in code. The idea is to bring that atmosphere to an everyday Windows desktop—and let you shape it yourself.
+
+Choose a quiet, slow-moving background or a brighter, faster wall of code. Adjust the look while the live preview keeps running, add your own incoming message, and choose which visual effects appear. This is an independent, fan-inspired project, not official Matrix software or an affiliated film product.
+
+## See the actual app
+
+These are unaltered screenshots captured from a running Windows installation on October 7, 2026—not design mockups. Click an image to view it at full size.
+
+| Effects: choose and preview each animation | Title & boot: write your own incoming message |
+| --- | --- |
+| [![Actual Effects settings](docs/media/settings-effects.jpg)](docs/media/settings-effects.jpg) | [![Actual Title and boot settings](docs/media/settings-title-and-boot.jpg)](docs/media/settings-title-and-boot.jpg) |
+| **Fine details:** tune brightness, variation, and tracers | **Windows:** playback, startup, screen saver, and still-image export |
+| [![Actual Fine details settings](docs/media/settings-fine-details.jpg)](docs/media/settings-fine-details.jpg) | [![Actual Windows settings](docs/media/settings-windows.jpg)](docs/media/settings-windows.jpg) |
+
+The screenshots show the developer's custom settings, including a personal imported-symbol profile. The public download uses Windows fonts and does not include that reference profile. The “Mac OS” text visible in the title editor is editable sample text, not a Mac requirement. [The guide explains the difference](docs/Settings%20Guide.md#about-these-screenshots).
 
 ## Which download should I choose?
 
@@ -43,6 +61,16 @@ Both app downloads include the .NET runtime. Neither requires Visual Studio or t
 | **Windows integration** | Multiple displays, optional startup at sign-in, screen saver, and still-image export. |
 
 Effects have individual timing controls and manual previews. Seamless mode lets the underlying rain keep moving. Choose 24, 30, or 60 frames per second; battery conservation and covered-desktop pausing help reduce activity when the wallpaper is not needed.
+
+### Which settings should I try first?
+
+- **For a calmer background:** choose Cinematic, reduce **Fall speed**, and lower **Glow intensity** if the light is too strong.
+- **For more code on screen:** increase **Amount of rain**. Increase **Symbols within each stream** to fill gaps inside the falling columns.
+- **For a bolder look:** increase **Symbol size** and **Trail length**, then tune the glow to taste.
+- **For fewer distractions:** turn off unwanted effects, reduce their intensity, or increase the time between appearances.
+- **For lower activity:** try Battery Saver, select 24 or 30 fps, and keep covered-desktop pausing enabled.
+
+[Read the complete illustrated settings guide →](docs/Settings%20Guide.md)
 
 ## Get started
 
@@ -120,6 +148,7 @@ The application was built and exercised on Windows 11 with four displays, using 
 ## Documentation & contribution
 
 - [Installation and everyday use](INSTALL.md)
+- [Illustrated settings guide and real app screenshots](docs/Settings%20Guide.md)
 - [Release notes](RELEASE-NOTES.md)
 - [Privacy](PRIVACY.md)
 - [Third-party licenses](LICENSES.md)
