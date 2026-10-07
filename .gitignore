@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+artifacts/
+private/
+*.user
+.vs/
+*.pfx
+*.p12
+*.key
+*.zip
+*.exe
+Settings.json
+Continuity-*.json
+*.log
